@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: brown; */
+      background: linear-gradient(135deg, #8b0000, #ff6b6b);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+
+.box{
+    height: 450px;
+    width: 336px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    height: 100vh;
+    display: inline;
+    padding-left: 180px;
+    padding-top: 100px;
+}
+
+
+h1
+{
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+p{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 50px;
+     width: 600px;   /* adjust as needed */
+    min-height: 150px;
+}
+
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #8b0000, #ff6b6b);
+    border-radius: 10px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+     background: linear-gradient(135deg, #8b0000, #ff6b6b);
+}
+
+
+button:hover{
+    color: black;
+    background: linear-gradient(135deg, #ff6b6b, #8b0000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
